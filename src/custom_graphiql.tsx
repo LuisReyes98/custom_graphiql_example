@@ -20,7 +20,14 @@ export default class CustomGraphiQL extends Component<CustomGraphiQLProps> {
       editorTheme="dracula"
       ref={(c:any) => { this.graphiql = c; }}
     >
-
+      {/* <GraphiQL.Logo>
+        Custom GraphiQL
+      </GraphiQL.Logo> */}
+      {/* <GraphiQL.Toolbar>
+        <GraphiQL.Menu label="File" title="File">
+          <GraphiQL.MenuItem label="Save" title="Save" />
+        </GraphiQL.Menu>
+      </GraphiQL.Toolbar> */}
     </GraphiQL>
   }
 }
